@@ -20,7 +20,7 @@ This is the frontend for a **pari-mutuel betting game**, allowing users to **con
 
 ### **1️⃣ Clone the repository**
 ```bash
-git clone https://github.com/yourusername/betting-frontend.git
+git clone https://github.com/anandsinha07/betting-frontend.git
 cd betting-frontend
 
 Install Dependencies

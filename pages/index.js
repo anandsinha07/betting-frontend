@@ -33,7 +33,7 @@ export default function Home() {
         const userAddress = await signer.getAddress();
         setAccount(userAddress);
 
-        const contractAddress = "0x34f13cf42fAC7C609D691679f0d2454fe45b348f";
+        const contractAddress = "0x34f13cf42fAC7C609D691679f0d2454fe45b348f";//deployed on sepolia base testnet
         const contractABI = [
           "function deposit() external payable",
           "function finalizePayout(string outcome, address[] winners, uint256[] amounts) external",
